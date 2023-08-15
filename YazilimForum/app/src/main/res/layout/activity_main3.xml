@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/c"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="394dp"
+        android:layout_height="331dp"
+        android:background="#45FFFFFF"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="start"
+        android:text="Android geliştirme, Google'ın Android işletim sistemi üzerinde çalışan mobil uygulamaları ve yazılımları oluşturma sürecidir. Android, dünya genelinde en yaygın olarak kullanılan mobil işletim sistemlerinden biridir ve birçok farklı cihazda çalışır, bunlar akıllı telefonlar, tabletler, akıllı saatler, televizyonlar, otomobiller ve daha fazlasını içerebilir.
+Android geliştirme, genellikle Android Studio gibi bir tür entegre geliştirme ortamı (IDE) kullanılarak gerçekleştirilir. Android Studio, geliştiricilere Android uygulamalarını oluşturmak, test etmek, hata ayıklamak ve dağıtmak için gerekli araçları sunar."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.786" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="411dp"
+        android:layout_height="152dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/background"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.953"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"
+        app:srcCompat="@drawable/blog" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#45FFFFFF"
+
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text=" Android Geliştirme Nedir ?"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+</androidx.constraintlayout.widget.ConstraintLayout>
